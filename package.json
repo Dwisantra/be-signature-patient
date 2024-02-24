@@ -1,0 +1,31 @@
+{
+  "name": "be-signature-patient",
+  "version": "1.0.0",
+  "description": "API Digital Signature Patient",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dwisantra/be-signature-patient.git"
+  },
+  "author": "Dwi Santra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dwisantra/be-signature-patient/issues"
+  },
+  "homepage": "https://github.com/Dwisantra/be-signature-patient#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "encrypt-rsa": "^2.1.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "ip": "^2.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-rsa": "^1.1.1"
+  }
+}
